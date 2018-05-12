@@ -1,0 +1,13 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	CHAR                    3042
+//	CLEAR                   3005
+//	JUMP                    3021
+//	LOADR                   302E
+//	LOOP                    3015
+//	MESS                    3054
+//	NEXT                    3027
+//	NL                      302F
+//	NUM                     3031
+//	SKIP                    3022
+//	WORD                    3068

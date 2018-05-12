@@ -1,0 +1,15 @@
+  .ORIG 0x3400
+  AND R0, R0, #0
+  LD R0, Star ;Prints *
+
+Loop  AND R1, R1, #0 ;Counter
+ 
+Plus  ADD R1, R1, #1
+  BRp Plus
+  OUT
+  BRn Loop
+  
+Star .FILL #42
+
+  .END
+  

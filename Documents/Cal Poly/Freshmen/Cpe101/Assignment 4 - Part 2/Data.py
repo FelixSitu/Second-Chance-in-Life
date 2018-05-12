@@ -1,0 +1,75 @@
+from utility import *
+
+class Point():
+    def __init__(self,x,y,z):
+        self.x = x
+        self.y = y
+        self.z = z
+
+    def __eq__(self, other):
+        xeq = epsilon_equal(self.x,other.x)
+        yeq = epsilon_equal(self.y,other.y)
+        zeq = epsilon_equal(self.z,other.z)
+        return xeq and yeq and zeq
+
+    def __repr__(self):
+        return 'point,x={0},y={1},z={2}'.format(self.x,self.y,self.z)
+
+class Vector():
+    def __init__(self,xdir,ydir,zdir):
+        self.xdir = xdir
+        self.ydir = ydir
+        self.zdir = zdir
+
+    def __eq__(self, other):
+        xdireq = epsilon_equal(self.xdir,other.xdir)
+        ydireq = epsilon_equal(self.ydir,other.ydir)
+        zdireq = epsilon_equal(self.zdir,other.zdir)
+        return xdireq and ydireq and zdireq
+
+    def __repr__(self):
+        return 'vector,xdir={0},ydir={1},zdir={2}'.format(self.xdir,self.ydir,self.zdir)
+
+
+class Ray():
+    def __init__(self,pt,dir):
+        self.pt = pt
+        self.dir = dir
+
+    def __eq__(self, other):
+        pteq = epsilon_equal(self.pt,other.pt)
+        direq = epsilon_equal(self.dir,other.dir)
+        return pteq and direq
+
+    def __repr__(self):
+        return 'ray,pt={0},dir={1}'.format(self.pt,self.dir)
+
+class Sphere():
+    def __init__(self,center,radius,color):
+        self.center = center
+        self.radius = radius
+        self.color = color
+
+    def __eq__(self, other):
+        centereq = epsilon_equal(self.center,other.center)
+        radiuseq = epsilon_equal(self.radius,other.radius)
+        col = epsilon_equal(self.color,other.color)
+        return centereq and radiuseq and col
+
+    def __repr__(self):
+        return 'sphere,center={0},radius={1},color={2}'.format(self.center,self.radius,self.color)
+
+class Color():
+    def __init__(self,r,g,b):
+        self.r = r
+        self.g = g
+        self.b = b
+
+    def __eq__(self,other):
+        redCol = epsilon_equal(self.r,other.r)
+        greenCol = epsilon_equal(self.g,other.g)
+        blueCol = epsilon_equal(self.b,other.b)
+        return redCol and greenCol and blueCol
+
+    def __repr__(self):
+        return 'color,r={0},g={1},b={2}'.format(self.r,self.g,self.b)

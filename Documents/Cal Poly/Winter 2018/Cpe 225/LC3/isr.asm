@@ -1,0 +1,37 @@
+  .ORIG x3500
+  
+  ST R1, SAVER1
+  ST R2, SAVER2
+  ST R5, SAVER5
+  
+  ;Char from KB into R0
+  LDI R0, KBDR
+  
+  ;Turn KBSR bit 14 with 0
+  LDI R1, KBSR ;Check KBSR if on/off
+  ;LD R2, Bit_14
+  ;AND R2, R1, R2
+  ;BRz DONE
+  LD R2, subtract
+  AND R1, R1, R2
+  STI R1, KBSR ;KBSR is now off
+  LD R1, SAVER1
+  ;Use RTI to return to USE1
+  LDI R5, RETURN
+  STR R5, R6, #0
+  LD R2, SAVER2
+  LD R5, SAVER5
+  RTI
+  
+BLANK .FILL x0000
+KBSR .FILL xFE00
+KBDR .FILL xFE02
+RETURN .FILL x32FF
+SAVER1 .FILL x0000
+SAVER2 .FILL x0000
+SAVER5 .FILL x0000
+Bit_14 .FILL x4000
+subtract .FILL xBFFF
+
+
+  .END

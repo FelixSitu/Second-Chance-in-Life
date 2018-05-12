@@ -1,0 +1,8 @@
+
+
+Week 1:  Horstman, chapters 1-3 (emphasis on 3)
+
+Week 2:  Horstman, chapter 4, but ignore finalize().
+	     (finalize() is mostly only useful when you're combining 
+	     Java with another language, like C).
+
