@@ -186,6 +186,14 @@ Khas.Fog.FOGS = {
         playerRange: 5,
         color: {"r": 200, "g": 0, "b": 200}
     },
+	grey: {
+        speed: {x: 0.2, y: 0.07}, 
+        size: 1.0,
+        ambientDensity: 75,
+        playerDensity: 25,
+        playerRange: 5,
+        color: {"r": 200, "g": 200, "b": 200}
+    },
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 // * Custom Fogs - Begin
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 

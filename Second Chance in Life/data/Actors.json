@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"battlerName":"Battle","characterIndex":0,"characterName":"Walk","classId":12,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Ayata_1","traits":[],"initialLevel":27,"maxLevel":31,"name":"Ayata","nickname":"","note":"","profile":""},
-{"id":2,"battlerName":"Battle4","characterIndex":3,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"Char","traits":[],"initialLevel":60,"maxLevel":60,"name":"Guzou","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"Young_Ayata","characterIndex":3,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"Char","traits":[],"initialLevel":60,"maxLevel":60,"name":"Guzou","nickname":"","note":"","profile":""},
 {"id":3,"battlerName":"Battle2","characterIndex":1,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Rumia_1","traits":[],"initialLevel":31,"maxLevel":31,"name":"Rumia","nickname":"","note":"","profile":""},
-{"id":4,"battlerName":"Battle3","characterIndex":2,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Akane_1","traits":[],"initialLevel":23,"maxLevel":23,"name":"Akane","nickname":"","note":"","profile":""}
+{"id":4,"battlerName":"Battle3","characterIndex":2,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Akane_1","traits":[],"initialLevel":23,"maxLevel":31,"name":"Akane","nickname":"","note":"","profile":""}
 ]
