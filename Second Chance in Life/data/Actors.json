@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"battlerName":"Battle","characterIndex":0,"characterName":"Walk","classId":12,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Ayata_1","traits":[],"initialLevel":27,"maxLevel":31,"name":"Ayata","nickname":"","note":"","profile":""},
-{"id":2,"battlerName":"Young_Ayata","characterIndex":3,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"Char","traits":[],"initialLevel":60,"maxLevel":60,"name":"Guzou","nickname":"","note":"","profile":""},
-{"id":3,"battlerName":"Battle2","characterIndex":1,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Rumia_1","traits":[],"initialLevel":31,"maxLevel":31,"name":"Rumia","nickname":"","note":"","profile":""},
-{"id":4,"battlerName":"Battle3","characterIndex":2,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Akane_1","traits":[],"initialLevel":23,"maxLevel":31,"name":"Akane","nickname":"","note":"","profile":""}
+{"id":1,"battlerName":"Battle","characterIndex":0,"characterName":"Walk","classId":12,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Ayata_1","traits":[],"initialLevel":27,"maxLevel":31,"name":"Ayata","nickname":"","note":"Past: 17 years old (Asleep for 5 years)\n\nWe both had our tragedy at the same year. \n\"But I came here 10 years later!\"\n\nRumia, what is this 3 year gap?","profile":""},
+{"id":2,"battlerName":"Young_Ayata","characterIndex":3,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Guzou","traits":[],"initialLevel":60,"maxLevel":60,"name":"Guzou","nickname":"","note":"Past: 45 years old","profile":""},
+{"id":3,"battlerName":"Battle2","characterIndex":1,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Rumia_1","traits":[],"initialLevel":29,"maxLevel":31,"name":"Rumia","nickname":"","note":"Past: 22 years old (Asleep for 8 years)\n\n\"It happened 7 years ago.\"","profile":""},
+{"id":4,"battlerName":"Battle3","characterIndex":2,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Akane_1","traits":[],"initialLevel":26,"maxLevel":31,"name":"Akane","nickname":"","note":"Past: 12 years old","profile":""}
 ]
