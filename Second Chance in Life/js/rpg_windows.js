@@ -2797,7 +2797,7 @@ Window_SavefileList.prototype = Object.create(Window_Selectable.prototype);
 Window_SavefileList.prototype.constructor = Window_SavefileList;
 
 Window_SavefileList.prototype.initialize = function(x, y, width, height) {
-    Window_Selectable.prototype.initialize.call(this, x, y, width, height);
+    Window_Selectable.prototype.initialize.call(this, x, y, width, height/4);
     this.activate();
     this._mode = null;
 };
@@ -2811,7 +2811,7 @@ Window_SavefileList.prototype.maxItems = function() {
 };
 
 Window_SavefileList.prototype.maxVisibleItems = function() {
-    return 5;
+    return 1;
 };
 
 Window_SavefileList.prototype.itemHeight = function() {
@@ -2821,6 +2821,7 @@ Window_SavefileList.prototype.itemHeight = function() {
 
 Window_SavefileList.prototype.drawItem = function(index) {
     var id = index + 1;
+	//var id = index;
     var valid = DataManager.isThisGameFile(id);
     var info = DataManager.loadSavefileInfo(id);
     var rect = this.itemRectForText(index);
@@ -2837,7 +2838,8 @@ Window_SavefileList.prototype.drawItem = function(index) {
 };
 
 Window_SavefileList.prototype.drawFileId = function(id, x, y) {
-    this.drawText(TextManager.file + ' ' + id, x, y, 180);
+    //this.drawText(TextManager.file + ' ' + id, x, y, 180);
+	this.drawText(TextManager.file, x, y, 180);
 };
 
 Window_SavefileList.prototype.drawContents = function(info, rect, valid) {
@@ -2862,7 +2864,7 @@ Window_SavefileList.prototype.drawGameTitle = function(info, x, y, width) {
 };
 
 Window_SavefileList.prototype.drawPartyCharacters = function(info, x, y) {
-    if (info.characters) {
+	if (info.characters) {
         for (var i = 0; i < info.characters.length; i++) {
             var data = info.characters[i];
             this.drawCharacter(data[0], data[1], x + i * 48, y);
