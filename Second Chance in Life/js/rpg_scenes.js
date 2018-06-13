@@ -297,7 +297,8 @@ Scene_Base.prototype.checkGameover = function() {
  * @memberof Scene_Base
  */
 Scene_Base.prototype.fadeOutAll = function() {
-    var time = this.slowFadeSpeed() / 60;
+    //var time = this.slowFadeSpeed() / 60;
+	var time = this.slowFadeSpeed();
     AudioManager.fadeOutBgm(time);
     AudioManager.fadeOutBgs(time);
     AudioManager.fadeOutMe(time);
@@ -313,7 +314,8 @@ Scene_Base.prototype.fadeOutAll = function() {
  * @return {Number} Return the fade speed
  */
 Scene_Base.prototype.fadeSpeed = function() {
-    return 24;
+    //return 24;
+	return 0;
 };
 
 /**
