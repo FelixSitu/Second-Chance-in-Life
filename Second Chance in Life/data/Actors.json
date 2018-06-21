@@ -1,8 +1,8 @@
 [
 null,
-{"id":1,"battlerName":"Battle","characterIndex":0,"characterName":"Walk","classId":12,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Ayata_1","traits":[],"initialLevel":27,"maxLevel":31,"name":"Ayata","nickname":"","note":"<Menu Bust: Ayata_1_1>","profile":"\"SUP\""},
-{"id":2,"battlerName":"Battle4","characterIndex":3,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Guzou","traits":[],"initialLevel":60,"maxLevel":60,"name":"Guzou","nickname":"","note":"<Menu Bust: Guzou_1>\n<Menu Bust X: 350>","profile":""},
-{"id":3,"battlerName":"Battle2","characterIndex":1,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Rumia_1","traits":[],"initialLevel":29,"maxLevel":31,"name":"Rumia","nickname":"","note":"<Menu Bust: Rumia_1_1>\n<Menu Bust X: 350>","profile":""},
-{"id":4,"battlerName":"Battle3","characterIndex":2,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Akane_1","traits":[],"initialLevel":26,"maxLevel":31,"name":"Akane","nickname":"","note":"<Menu Bust: Akane_1_1>\n<Menu Bust X: 350>","profile":""},
+{"id":1,"battlerName":"Battle","characterIndex":0,"characterName":"Walk","classId":12,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Ayata_1","traits":[],"initialLevel":27,"maxLevel":31,"name":"Ayata","nickname":"","note":"<Menu Bust: Ayata>","profile":"\"SUP\""},
+{"id":2,"battlerName":"Battle4","characterIndex":3,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Guzou","traits":[],"initialLevel":60,"maxLevel":60,"name":"Guzou","nickname":"","note":"<Menu Bust: Guzou>\n<Menu Bust X: 350>","profile":""},
+{"id":3,"battlerName":"Battle2","characterIndex":1,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Rumia_1","traits":[],"initialLevel":29,"maxLevel":31,"name":"Rumia","nickname":"","note":"<Menu Bust: Rumia>\n<Menu Bust X: 350>","profile":""},
+{"id":4,"battlerName":"Battle3","characterIndex":2,"characterName":"Walk","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Akane_1","traits":[],"initialLevel":26,"maxLevel":31,"name":"Akane","nickname":"","note":"<Menu Bust: Akane>\n<Menu Bust X: 350>","profile":""},
 {"id":5,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
 ]

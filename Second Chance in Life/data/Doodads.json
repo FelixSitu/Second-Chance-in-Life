@@ -1,0 +1,54 @@
+[
+  null,
+  null,
+  null,
+  null,
+  null,
+  [],
+  null,
+  null,
+  null,
+  [
+    {
+      "folder": "Signs/",
+      "bitmap": "Biohazard",
+      "hue": 0,
+      "x": 168,
+      "y": 127,
+      "z": 3,
+      "iconIndex": 0,
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "scaleX": 100,
+      "scaleY": 100,
+      "blend": 0,
+      "opacity": 255,
+      "xFrames": 1,
+      "yFrames": 1,
+      "frameUpdate": 20,
+      "smooth": false
+    }
+  ],
+  null,
+  [
+    {
+      "folder": "Machines/",
+      "bitmap": "Air Conditioner B",
+      "hue": 0,
+      "x": 599,
+      "y": 97,
+      "z": 3,
+      "iconIndex": 0,
+      "anchorX": 0.5,
+      "anchorY": 1,
+      "scaleX": 100,
+      "scaleY": 100,
+      "blend": 0,
+      "opacity": 255,
+      "xFrames": 1,
+      "yFrames": 1,
+      "frameUpdate": 20,
+      "smooth": false
+    }
+  ]
+]

@@ -572,7 +572,7 @@ var Imported = Imported || {};
 		return Graphics.boxWidth;
 	};
 	Window_MenuStatus.prototype.windowHeight = function() {
-	    return Graphics.boxHeight/2;
+	    return Graphics.boxHeight;
 	};
 	Window_MenuStatus.prototype.numVisibleRows = function() {
 		return 1;
