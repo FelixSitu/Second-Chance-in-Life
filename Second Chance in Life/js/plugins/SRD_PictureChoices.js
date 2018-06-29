@@ -355,11 +355,11 @@ Window_PictureChoiceList.prototype.update = function() {
 	for(var i = 0; i < length; i++) {
 		if(this._spriteChoices[i]) {
 			if(this.index() === i) {
-				this._spriteChoices[i].opacity = 255;
+				//this._spriteChoices[i].opacity = 255;
 				this._spriteChoices[i].updateIncrease();
 				
 			} else {
-				this._spriteChoices[i].opacity = 125;
+				//this._spriteChoices[i].opacity = 125;
 				this._spriteChoices[i].updateDecrease();
 			}
 		}
@@ -431,8 +431,9 @@ Sprite_PictureChoice.prototype.updateIncrease = function() {
 		this._breath += _.speed;
 		this.scale.x = this._breath;
 		this.scale.y = this._breath;
-		
+		this.opacity = 255;
 	}
+	
 };
 
 Sprite_PictureChoice.prototype.updateDecrease = function() {
@@ -440,7 +441,9 @@ Sprite_PictureChoice.prototype.updateDecrease = function() {
 		this._breath -= _.speed;
 		this.scale.x = this._breath;
 		this.scale.y = this._breath;
+		this.opacity = 150;
 	}
+	
 };
 
 })(SRD.PictureChoices);
